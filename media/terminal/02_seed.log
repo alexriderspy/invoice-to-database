@@ -1,0 +1,5 @@
+sreemanti@MacBook-Pro invoice-pipeline % python -m pipeline.seed
+Supplier master: added 3, already there 0
+  27AABCD1234E1Z5  Deccan Castings Pvt Ltd
+  27AAKFS5678G1Z2  Shree Motors & Winding
+  29AAGCK4321H1Z9  Kaveri Seals and Gaskets

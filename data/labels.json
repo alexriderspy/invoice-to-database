@@ -1,0 +1,1834 @@
+{
+  "inv_000.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1000",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 2.0,
+        "unit_price": 1450.0,
+        "taxable_value": 2900.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 4.0,
+        "unit_price": 980.0,
+        "taxable_value": 3920.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1227.6,
+    "total_amount": 8047.6,
+    "broken": null
+  },
+  "inv_001.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1001",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 1.0,
+        "unit_price": 1450.0,
+        "taxable_value": 1450.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 4.0,
+        "unit_price": 980.0,
+        "taxable_value": 3920.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 1.0,
+        "unit_price": 620.0,
+        "taxable_value": 620.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1078.2,
+    "total_amount": 7068.2,
+    "broken": null
+  },
+  "inv_002.jpg": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1002",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 7.0,
+        "unit_price": 980.0,
+        "taxable_value": 6860.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1234.8,
+    "total_amount": 8094.8,
+    "broken": null
+  },
+  "inv_003.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1003",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 2.0,
+        "unit_price": 980.0,
+        "taxable_value": 2060.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 10.0,
+        "unit_price": 5200.0,
+        "taxable_value": 52000.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 10.0,
+        "unit_price": 1450.0,
+        "taxable_value": 14500.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 6161.4,
+    "sgst": 6161.4,
+    "igst": 0.0,
+    "total_amount": 80782.8,
+    "broken": "line_math"
+  },
+  "inv_004.jpg": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1004",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 2.0,
+        "unit_price": 980.0,
+        "taxable_value": 1960.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 352.8,
+    "total_amount": 2812.8,
+    "broken": "total"
+  },
+  "inv_005.jpg": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1005",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 8.0,
+        "unit_price": 1450.0,
+        "taxable_value": 11600.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 9.0,
+        "unit_price": 980.0,
+        "taxable_value": 8820.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 7.0,
+        "unit_price": 5200.0,
+        "taxable_value": 36400.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 5113.8,
+    "sgst": 5113.8,
+    "igst": 0.0,
+    "total_amount": 67047.6,
+    "broken": null
+  },
+  "inv_006.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1006",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 4.0,
+        "unit_price": 5200.0,
+        "taxable_value": 20800.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 3.0,
+        "unit_price": 620.0,
+        "taxable_value": 1860.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 4.0,
+        "unit_price": 980.0,
+        "taxable_value": 3920.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 2392.2,
+    "sgst": 2392.2,
+    "igst": 0.0,
+    "total_amount": 31364.4,
+    "broken": "gstin"
+  },
+  "inv_007.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1007",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 6.0,
+        "unit_price": 980.0,
+        "taxable_value": 5880.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 8.0,
+        "unit_price": 5200.0,
+        "taxable_value": 41600.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 5.0,
+        "unit_price": 620.0,
+        "taxable_value": 3100.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 4552.2,
+    "sgst": 4552.2,
+    "igst": 0.0,
+    "total_amount": 59684.4,
+    "broken": null
+  },
+  "inv_008.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1008",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 9.0,
+        "unit_price": 1450.0,
+        "taxable_value": 13050.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2349.0,
+    "total_amount": 15399.0,
+    "broken": null
+  },
+  "inv_009.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1009",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 3.0,
+        "unit_price": 980.0,
+        "taxable_value": 3040.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 264.6,
+    "sgst": 264.6,
+    "igst": 0.0,
+    "total_amount": 3469.2,
+    "broken": "line_math"
+  },
+  "inv_010.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1010",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 2.0,
+        "unit_price": 1450.0,
+        "taxable_value": 2900.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 9.0,
+        "unit_price": 980.0,
+        "taxable_value": 8820.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1054.8,
+    "sgst": 1054.8,
+    "igst": 0.0,
+    "total_amount": 13829.6,
+    "broken": null
+  },
+  "inv_011.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1011",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 6.0,
+        "unit_price": 980.0,
+        "taxable_value": 5880.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 10.0,
+        "unit_price": 5200.0,
+        "taxable_value": 52000.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 10418.4,
+    "total_amount": 68298.4,
+    "broken": null
+  },
+  "inv_012.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1012",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 5.0,
+        "unit_price": 5200.0,
+        "taxable_value": 26000.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 8.0,
+        "unit_price": 1450.0,
+        "taxable_value": 11600.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 2.0,
+        "unit_price": 980.0,
+        "taxable_value": 1960.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 3560.4,
+    "sgst": 3560.4,
+    "igst": 0.0,
+    "total_amount": 46680.8,
+    "broken": null
+  },
+  "inv_013.jpg": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1013",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 5.0,
+        "unit_price": 980.0,
+        "taxable_value": 4900.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 7.0,
+        "unit_price": 5200.0,
+        "taxable_value": 36400.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 6.0,
+        "unit_price": 620.0,
+        "taxable_value": 3720.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 4051.8,
+    "sgst": 4051.8,
+    "igst": 0.0,
+    "total_amount": 53123.6,
+    "broken": null
+  },
+  "inv_014.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1014",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 2.0,
+        "unit_price": 620.0,
+        "taxable_value": 1240.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 8.0,
+        "unit_price": 980.0,
+        "taxable_value": 7840.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 817.2,
+    "sgst": 817.2,
+    "igst": 0.0,
+    "total_amount": 10714.4,
+    "broken": null
+  },
+  "inv_015.jpg": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1015",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 3.0,
+        "unit_price": 980.0,
+        "taxable_value": 2940.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 264.6,
+    "sgst": 264.6,
+    "igst": 0.0,
+    "total_amount": 3469.2,
+    "broken": null
+  },
+  "inv_016.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1016",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 3.0,
+        "unit_price": 5200.0,
+        "taxable_value": 15600.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 8.0,
+        "unit_price": 1450.0,
+        "taxable_value": 11600.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 2448.0,
+    "sgst": 2448.0,
+    "igst": 0.0,
+    "total_amount": 32096.0,
+    "broken": null
+  },
+  "inv_017.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1017",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 9.0,
+        "unit_price": 980.0,
+        "taxable_value": 8820.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 5.0,
+        "unit_price": 1450.0,
+        "taxable_value": 7250.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 7.0,
+        "unit_price": 620.0,
+        "taxable_value": 4340.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1836.9,
+    "sgst": 1836.9,
+    "igst": 0.0,
+    "total_amount": 24083.8,
+    "broken": null
+  },
+  "inv_018.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1018",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 2.0,
+        "unit_price": 5200.0,
+        "taxable_value": 10400.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 3.0,
+        "unit_price": 1450.0,
+        "taxable_value": 4350.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 3.0,
+        "unit_price": 980.0,
+        "taxable_value": 2940.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1592.1,
+    "sgst": 1592.1,
+    "igst": 0.0,
+    "total_amount": 20874.2,
+    "broken": null
+  },
+  "inv_019.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1019",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 10.0,
+        "unit_price": 620.0,
+        "taxable_value": 6200.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 3.0,
+        "unit_price": 1450.0,
+        "taxable_value": 4350.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 5.0,
+        "unit_price": 5200.0,
+        "taxable_value": 26000.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 3289.5,
+    "sgst": 3289.5,
+    "igst": 0.0,
+    "total_amount": 43129.0,
+    "broken": null
+  },
+  "inv_020.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1020",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 7.0,
+        "unit_price": 620.0,
+        "taxable_value": 4340.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 390.6,
+    "sgst": 390.6,
+    "igst": 0.0,
+    "total_amount": 5621.2,
+    "broken": "total"
+  },
+  "inv_021.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1021",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 9.0,
+        "unit_price": 980.0,
+        "taxable_value": 8820.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 10.0,
+        "unit_price": 1450.0,
+        "taxable_value": 14500.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 4197.6,
+    "total_amount": 27517.6,
+    "broken": null
+  },
+  "inv_022.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1022",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 7.0,
+        "unit_price": 1450.0,
+        "taxable_value": 10150.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 7.0,
+        "unit_price": 620.0,
+        "taxable_value": 4340.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 7.0,
+        "unit_price": 980.0,
+        "taxable_value": 6860.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 3843.0,
+    "total_amount": 25193.0,
+    "broken": null
+  },
+  "inv_023.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1023",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 4.0,
+        "unit_price": 5200.0,
+        "taxable_value": 20800.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 2.0,
+        "unit_price": 1450.0,
+        "taxable_value": 2900.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 2133.0,
+    "sgst": 2133.0,
+    "igst": 0.0,
+    "total_amount": 27966.0,
+    "broken": "gstin"
+  },
+  "inv_024.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1024",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 6.0,
+        "unit_price": 620.0,
+        "taxable_value": 3720.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 10.0,
+        "unit_price": 1450.0,
+        "taxable_value": 14500.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1639.8,
+    "sgst": 1639.8,
+    "igst": 0.0,
+    "total_amount": 21499.6,
+    "broken": null
+  },
+  "inv_025.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1025",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 10.0,
+        "unit_price": 1450.0,
+        "taxable_value": 14600.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1305.0,
+    "sgst": 1305.0,
+    "igst": 0.0,
+    "total_amount": 17110.0,
+    "broken": "line_math"
+  },
+  "inv_026.jpg": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1026",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 2.0,
+        "unit_price": 1450.0,
+        "taxable_value": 2900.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 4.0,
+        "unit_price": 620.0,
+        "taxable_value": 2480.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 10.0,
+        "unit_price": 5200.0,
+        "taxable_value": 52000.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 5164.2,
+    "sgst": 5164.2,
+    "igst": 0.0,
+    "total_amount": 67708.4,
+    "broken": null
+  },
+  "inv_027.jpg": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1027",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 6.0,
+        "unit_price": 980.0,
+        "taxable_value": 5880.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 8.0,
+        "unit_price": 5200.0,
+        "taxable_value": 41600.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 8546.4,
+    "total_amount": 56026.4,
+    "broken": null
+  },
+  "inv_028.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1028",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 5.0,
+        "unit_price": 5200.0,
+        "taxable_value": 26000.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 2.0,
+        "unit_price": 620.0,
+        "taxable_value": 1240.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 2451.6,
+    "sgst": 2451.6,
+    "igst": 0.0,
+    "total_amount": 32143.2,
+    "broken": null
+  },
+  "inv_029.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1029",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 5.0,
+        "unit_price": 980.0,
+        "taxable_value": 4900.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 441.0,
+    "sgst": 441.0,
+    "igst": 0.0,
+    "total_amount": 5782.0,
+    "broken": null
+  },
+  "inv_030.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1030",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 4.0,
+        "unit_price": 620.0,
+        "taxable_value": 2480.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 9.0,
+        "unit_price": 980.0,
+        "taxable_value": 8820.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 6.0,
+        "unit_price": 1450.0,
+        "taxable_value": 8700.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1800.0,
+    "sgst": 1800.0,
+    "igst": 0.0,
+    "total_amount": 23600.0,
+    "broken": null
+  },
+  "inv_031.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1031",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 2.0,
+        "unit_price": 1450.0,
+        "taxable_value": 2900.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 5.0,
+        "unit_price": 980.0,
+        "taxable_value": 4900.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 9.0,
+        "unit_price": 620.0,
+        "taxable_value": 5580.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1204.2,
+    "sgst": 1204.2,
+    "igst": 0.0,
+    "total_amount": 15788.4,
+    "broken": null
+  },
+  "inv_032.jpg": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1032",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 4.0,
+        "unit_price": 980.0,
+        "taxable_value": 3920.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 352.8,
+    "sgst": 352.8,
+    "igst": 0.0,
+    "total_amount": 4625.6,
+    "broken": null
+  },
+  "inv_033.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1033",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 4.0,
+        "unit_price": 620.0,
+        "taxable_value": 2480.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 4.0,
+        "unit_price": 980.0,
+        "taxable_value": 3920.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1152.0,
+    "total_amount": 7552.0,
+    "broken": null
+  },
+  "inv_034.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1034",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 6.0,
+        "unit_price": 620.0,
+        "taxable_value": 3720.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 1.0,
+        "unit_price": 1450.0,
+        "taxable_value": 1450.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 1.0,
+        "unit_price": 5200.0,
+        "taxable_value": 5200.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 933.3,
+    "sgst": 933.3,
+    "igst": 0.0,
+    "total_amount": 12736.6,
+    "broken": "total"
+  },
+  "inv_035.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1035",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 10.0,
+        "unit_price": 980.0,
+        "taxable_value": 9800.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 6.0,
+        "unit_price": 1450.0,
+        "taxable_value": 8700.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1665.0,
+    "sgst": 1665.0,
+    "igst": 0.0,
+    "total_amount": 21830.0,
+    "broken": null
+  },
+  "inv_036.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1036",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 4.0,
+        "unit_price": 980.0,
+        "taxable_value": 3920.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 2.0,
+        "unit_price": 620.0,
+        "taxable_value": 1240.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 4.0,
+        "unit_price": 1450.0,
+        "taxable_value": 5800.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 986.4,
+    "sgst": 986.4,
+    "igst": 0.0,
+    "total_amount": 12932.8,
+    "broken": null
+  },
+  "inv_037.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1037",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 4.0,
+        "unit_price": 980.0,
+        "taxable_value": 3920.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 352.8,
+    "sgst": 352.8,
+    "igst": 0.0,
+    "total_amount": 4625.6,
+    "broken": "gstin"
+  },
+  "inv_038.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1038",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 2.0,
+        "unit_price": 1450.0,
+        "taxable_value": 2900.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 2.0,
+        "unit_price": 620.0,
+        "taxable_value": 1240.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 7.0,
+        "unit_price": 980.0,
+        "taxable_value": 6860.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 990.0,
+    "sgst": 990.0,
+    "igst": 0.0,
+    "total_amount": 12980.0,
+    "broken": null
+  },
+  "inv_039.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1039",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 3.0,
+        "unit_price": 5200.0,
+        "taxable_value": 15600.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2808.0,
+    "total_amount": 18408.0,
+    "broken": null
+  },
+  "inv_040.pdf": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1040",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 8.0,
+        "unit_price": 980.0,
+        "taxable_value": 7840.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 7.0,
+        "unit_price": 1450.0,
+        "taxable_value": 10150.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 2.0,
+        "unit_price": 620.0,
+        "taxable_value": 1240.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1730.7,
+    "sgst": 1730.7,
+    "igst": 0.0,
+    "total_amount": 22691.4,
+    "broken": null
+  },
+  "inv_041.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1041",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 3.0,
+        "unit_price": 620.0,
+        "taxable_value": 1960.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 334.8,
+    "total_amount": 2194.8,
+    "broken": "line_math"
+  },
+  "inv_042.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1042",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 3.0,
+        "unit_price": 5200.0,
+        "taxable_value": 15600.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1404.0,
+    "sgst": 1404.0,
+    "igst": 0.0,
+    "total_amount": 18408.0,
+    "broken": null
+  },
+  "inv_043.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1043",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 3.0,
+        "unit_price": 5200.0,
+        "taxable_value": 15600.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 9.0,
+        "unit_price": 980.0,
+        "taxable_value": 8820.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 9.0,
+        "unit_price": 620.0,
+        "taxable_value": 5580.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 5400.0,
+    "total_amount": 35400.0,
+    "broken": null
+  },
+  "inv_044.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1044",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 2.0,
+        "unit_price": 1450.0,
+        "taxable_value": 2900.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 261.0,
+    "sgst": 261.0,
+    "igst": 0.0,
+    "total_amount": 3422.0,
+    "broken": null
+  },
+  "inv_045.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1045",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 4.0,
+        "unit_price": 620.0,
+        "taxable_value": 2480.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 1.0,
+        "unit_price": 5200.0,
+        "taxable_value": 5200.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 5.0,
+        "unit_price": 1450.0,
+        "taxable_value": 7250.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2687.4,
+    "total_amount": 17617.4,
+    "broken": null
+  },
+  "inv_046.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1046",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 6.0,
+        "unit_price": 620.0,
+        "taxable_value": 3720.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 5.0,
+        "unit_price": 980.0,
+        "taxable_value": 4900.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 775.8,
+    "sgst": 775.8,
+    "igst": 0.0,
+    "total_amount": 10171.6,
+    "broken": null
+  },
+  "inv_047.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1047",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 6.0,
+        "unit_price": 620.0,
+        "taxable_value": 3720.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 8.0,
+        "unit_price": 1450.0,
+        "taxable_value": 11600.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2757.6,
+    "total_amount": 18077.6,
+    "broken": null
+  },
+  "inv_048.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1048",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 9.0,
+        "unit_price": 5200.0,
+        "taxable_value": 46800.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 3.0,
+        "unit_price": 980.0,
+        "taxable_value": 2940.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 9.0,
+        "unit_price": 1450.0,
+        "taxable_value": 13050.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 11302.2,
+    "total_amount": 74092.2,
+    "broken": null
+  },
+  "inv_049.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1049",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 3.0,
+        "unit_price": 5200.0,
+        "taxable_value": 15600.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2808.0,
+    "total_amount": 18408.0,
+    "broken": null
+  },
+  "inv_050.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1050",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 3.0,
+        "unit_price": 620.0,
+        "taxable_value": 1860.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 334.8,
+    "total_amount": 2194.8,
+    "broken": null
+  },
+  "inv_051.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1051",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 1.0,
+        "unit_price": 1450.0,
+        "taxable_value": 1450.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 6.0,
+        "unit_price": 980.0,
+        "taxable_value": 5880.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 659.7,
+    "sgst": 659.7,
+    "igst": 0.0,
+    "total_amount": 8649.4,
+    "broken": null
+  },
+  "inv_052.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1052",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 4.0,
+        "unit_price": 5200.0,
+        "taxable_value": 20800.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 4.0,
+        "unit_price": 1450.0,
+        "taxable_value": 5800.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 5.0,
+        "unit_price": 980.0,
+        "taxable_value": 4900.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 5670.0,
+    "total_amount": 37670.0,
+    "broken": "total"
+  },
+  "inv_053.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1053",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 9.0,
+        "unit_price": 5200.0,
+        "taxable_value": 46800.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 4212.0,
+    "sgst": 4212.0,
+    "igst": 0.0,
+    "total_amount": 55224.0,
+    "broken": null
+  },
+  "inv_054.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1054",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 6.0,
+        "unit_price": 5200.0,
+        "taxable_value": 31200.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 2808.0,
+    "sgst": 2808.0,
+    "igst": 0.0,
+    "total_amount": 36816.0,
+    "broken": null
+  },
+  "inv_055.jpg": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1055",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 8.0,
+        "unit_price": 620.0,
+        "taxable_value": 4960.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 9.0,
+        "unit_price": 980.0,
+        "taxable_value": 8820.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 9.0,
+        "unit_price": 5200.0,
+        "taxable_value": 46800.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 10904.4,
+    "total_amount": 71484.4,
+    "broken": "gstin"
+  },
+  "inv_056.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1056",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 9.0,
+        "unit_price": 980.0,
+        "taxable_value": 8820.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1587.6,
+    "total_amount": 10407.6,
+    "broken": null
+  },
+  "inv_057.pdf": {
+    "supplier_name": "Deccan Castings Pvt Ltd",
+    "supplier_gstin": "27AABCD1234E1Z5",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "DEC/26-27/1057",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Mechanical seal 25mm",
+        "hsn_code": "8484",
+        "quantity": 2.0,
+        "unit_price": 620.0,
+        "taxable_value": 1240.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 7.0,
+        "unit_price": 5200.0,
+        "taxable_value": 36400.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 3387.6,
+    "sgst": 3387.6,
+    "igst": 0.0,
+    "total_amount": 44415.2,
+    "broken": null
+  },
+  "inv_058.jpg": {
+    "supplier_name": "Shree Motors & Winding",
+    "supplier_gstin": "27AAKFS5678G1Z2",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "SHR/26-27/1058",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 4.0,
+        "unit_price": 1450.0,
+        "taxable_value": 5800.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Motor winding wire 1kg",
+        "hsn_code": "8544",
+        "quantity": 7.0,
+        "unit_price": 980.0,
+        "taxable_value": 6860.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 1139.4,
+    "sgst": 1139.4,
+    "igst": 0.0,
+    "total_amount": 14938.8,
+    "broken": null
+  },
+  "inv_059.pdf": {
+    "supplier_name": "Kaveri Seals and Gaskets",
+    "supplier_gstin": "29AAGCK4321H1Z9",
+    "buyer_gstin": "27AAACV9876K1Z3",
+    "invoice_number": "KAV/26-27/1059",
+    "invoice_date": "2026-10-03",
+    "line_items": [
+      {
+        "description": "Impeller VP-100",
+        "hsn_code": "8413",
+        "quantity": 6.0,
+        "unit_price": 1450.0,
+        "taxable_value": 8700.0,
+        "gst_rate": 18.0
+      },
+      {
+        "description": "Pump casing VS-200",
+        "hsn_code": "8413",
+        "quantity": 3.0,
+        "unit_price": 5200.0,
+        "taxable_value": 15600.0,
+        "gst_rate": 18.0
+      }
+    ],
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 4374.0,
+    "total_amount": 28674.0,
+    "broken": null
+  }
+}

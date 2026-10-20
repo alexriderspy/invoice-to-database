@@ -1,0 +1,10 @@
+sreemanti@MacBook-Pro invoice-pipeline % python demo_db.py
+Saved inv_000.pdf: KAV/26-27/1000, total 8047.6
+Sent inv_003.pdf to review: 2 problems
+Duplicate refused by the database: UNIQUE constraint failed: invoices.supplier_gstin, invoices.invoice_number
+
+invoices: 1 row   invoice_lines: 2 rows   (nothing half-saved from the duplicate)
+
+audit_log
+  1  2026-10-20 23:45:51  inv_000.pdf  saved           pipeline  
+  2  2026-10-20 23:45:51  inv_003.pdf  sent to review  pipeline  ["Line 1: 2.0 x 980.0 is not 2060.0", "Total 80782.8 doesn't match lines plus tax (80882.80)"]

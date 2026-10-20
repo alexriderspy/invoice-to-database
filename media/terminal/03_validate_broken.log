@@ -1,0 +1,15 @@
+sreemanti@MacBook-Pro invoice-pipeline % python demo_validate.py
+inv_000.pdf  (clean)
+  no problems
+
+inv_003.pdf  (broken: line_math)
+  PROBLEM  Line 1: 2.0 x 980.0 is not 2060.0
+  PROBLEM  Total 80782.8 doesn't match lines plus tax (80882.80)
+
+inv_020.pdf  (broken: total)
+  PROBLEM  Total 5621.2 doesn't match lines plus tax (5121.20)
+
+inv_006.pdf  (broken: gstin)
+  PROBLEM  Supplier GSTIN '27AAKFS5678G1Z' is missing or not a valid format
+  PROBLEM  Supplier GSTIN 27AAKFS5678G1Z isn't in the supplier master
+

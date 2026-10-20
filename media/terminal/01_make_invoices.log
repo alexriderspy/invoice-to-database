@@ -1,0 +1,6 @@
+sreemanti@MacBook-Pro invoice-pipeline % python data/make_invoices.py --count 60 --broken 12 --photos 10
+Wrote 60 invoices to data/invoices/  (50 PDFs, 10 phone photos)
+  broken on purpose (line_math): 4  inv_003.pdf, inv_009.pdf, inv_025.pdf, inv_041.pdf
+  broken on purpose (total): 4  inv_004.jpg, inv_020.pdf, inv_034.pdf, inv_052.pdf
+  broken on purpose (gstin): 4  inv_006.pdf, inv_023.pdf, inv_037.pdf, inv_055.jpg
+Labels for every file: data/labels.json
