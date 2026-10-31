@@ -1,0 +1,45 @@
+sreemanti@MacBook-Pro invoice-pipeline % python demo_extract.py data/invoices/inv_002.jpg
+--- text read from inv_002.jpg ---
+KaveriSealsandGaskets   TAXINVOICE
+No.42,Peenya lndustrial Area,Phase2   InvoiceNo:KAV/26-27/1002
+Bengaluru560058,Karmataka   InvoiceDate:03-Oct-2026
+GSTIN:29AAGCK4321H1Z9   OriginalforRecipient
+Billto   Placeof supply
+VardhanPumpsPvtLtd   Maharashtra(27)
+S.No.118,HadapsarIndustrial Estate   Payment terms:30days
+Pune411013,Maharashtra
+GSTIN:27AAACV9876K1Z3
+Sr   Description   HSN   Qty   Rate   Taxable value   GST%
+1   Motorwindingwire1kg   8544   7   980.00   6,860.00   18%
+Taxablevalue   6,860.00
+IGST   @18%   1,234.80
+Total (INR)   8,094.80
+Bank:HDFCBank,Pune.Acdetailsonrequest.   ForKaveriSealsandGaskets
+Goodsoncesoldwillnotbe takenback.Subjecttolocal jurisdiction.
+AuthorisedSignatory
+
+--- extracted ---
+{
+  "supplier_name": "Kaveri Seals and Gaskets",
+  "supplier_gstin": "29AAGCK4321H1Z9",
+  "buyer_gstin": "27AAACV9876K1Z3",
+  "invoice_number": "KAV/26-27/1002",
+  "invoice_date": "2026-10-03",
+  "line_items": [
+    {
+      "description": "Motorwindingwire1kg",
+      "hsn_code": "8544",
+      "quantity": 7.0,
+      "unit_price": 980.0,
+      "taxable_value": 6860.0,
+      "gst_rate": 18.0
+    }
+  ],
+  "cgst": 617.4,
+  "sgst": 617.4,
+  "igst": 1234.8,
+  "total_amount": 8094.8,
+  "uncertain_fields": []
+}
+
+521 tokens in, 238 out, 11.59 s

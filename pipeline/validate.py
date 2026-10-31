@@ -27,7 +27,11 @@ def validate(inv: Invoice, known_gstins: set[str], seen: set[tuple[str, str]]) -
             problems.append("Same-state supply should have CGST + SGST, not IGST")
         if not same_state and (inv.cgst > 0 or inv.sgst > 0):
             problems.append("Inter-state supply should have IGST, not CGST + SGST")
-    allowed = GST_RATES_FROM if date.fromisoformat(inv.invoice_date) >= RATE_CHANGE else GST_RATES_BEFORE
+    try:
+        allowed = GST_RATES_FROM if date.fromisoformat(inv.invoice_date) >= RATE_CHANGE else GST_RATES_BEFORE
+    except ValueError:
+        problems.append(f"Invoice date '{inv.invoice_date}' isn't a YYYY-MM-DD date")
+        allowed = GST_RATES_FROM
     for n, line in enumerate(inv.line_items, 1):
         if line.gst_rate is not None and line.gst_rate not in allowed:
             problems.append(f"Line {n}: GST rate {line.gst_rate}% isn't a valid rate for that date")

@@ -1,0 +1,68 @@
+sreemanti@MacBook-Pro invoice-pipeline % python -m evals.run_evals
+inv_000.pdf  fields 10/10  saved
+inv_001.pdf  fields 11/11  saved
+inv_002.jpg  fields 7/9  review
+inv_003.pdf  fields 11/11  review  (broken: line_math)
+inv_004.jpg  fields 9/9  review  (broken: total)
+inv_005.jpg  fields 11/11  saved
+inv_006.pdf  fields 11/11  review  (broken: gstin)
+inv_007.pdf  fields 11/11  saved
+inv_008.pdf  fields 9/9  saved
+inv_009.pdf  fields 9/9  review  (broken: line_math)
+inv_010.pdf  fields 10/10  saved
+inv_011.pdf  fields 10/10  saved
+inv_012.pdf  fields 11/11  saved
+inv_013.jpg  fields 11/11  saved
+inv_014.pdf  fields 10/10  saved
+inv_015.jpg  fields 9/9  saved
+inv_016.pdf  fields 10/10  saved
+inv_017.pdf  fields 11/11  saved
+inv_018.pdf  fields 11/11  saved
+inv_019.pdf  fields 11/11  saved
+inv_020.pdf  fields 9/9  review  (broken: total)
+inv_021.pdf  fields 10/10  saved
+inv_022.pdf  fields 11/11  saved
+inv_023.pdf  fields 10/10  review  (broken: gstin)
+inv_024.pdf  fields 10/10  saved
+inv_025.pdf  fields 9/9  review  (broken: line_math)
+inv_026.jpg  fields 11/11  saved
+inv_027.jpg  fields 10/10  saved
+inv_028.pdf  fields 10/10  saved
+inv_029.pdf  fields 9/9  saved
+inv_030.pdf  fields 11/11  saved
+inv_031.pdf  fields 11/11  saved
+inv_032.jpg  fields 8/9  saved
+inv_033.pdf  fields 10/10  saved
+inv_034.pdf  fields 11/11  review  (broken: total)
+inv_035.pdf  fields 10/10  saved
+inv_036.pdf  fields 11/11  saved
+inv_037.pdf  fields 9/9  review  (broken: gstin)
+inv_038.pdf  fields 11/11  saved
+inv_039.pdf  fields 9/9  saved
+inv_040.pdf  fields 11/11  saved
+inv_041.pdf  fields 9/9  review  (broken: line_math)
+inv_042.pdf  fields 9/9  saved
+inv_043.pdf  fields 11/11  saved
+inv_044.pdf  fields 9/9  saved
+inv_045.pdf  fields 11/11  saved
+inv_046.pdf  fields 10/10  saved
+inv_047.pdf  fields 10/10  saved
+inv_048.pdf  fields 11/11  saved
+inv_049.pdf  fields 9/9  saved
+inv_050.pdf  fields 9/9  saved
+inv_051.pdf  fields 10/10  saved
+inv_052.pdf  fields 11/11  review  (broken: total)
+inv_053.pdf  fields 9/9  saved
+inv_054.pdf  fields 9/9  saved
+inv_055.jpg  fields 11/11  review  (broken: gstin)
+inv_056.pdf  fields 9/9  saved
+inv_057.pdf  fields 10/10  saved
+inv_058.jpg  fields 9/10  saved
+inv_059.pdf  fields 10/10  saved
+
+Field accuracy:        600/604 = 99.3%
+Straight-through rate: 47/60 = 78.3%
+Broken caught:         12 of 12
+Tokens:                34,671 in, 18,781 out
+Model time:            14.3 s per invoice on qwen2.5:7b
+Cost per invoice:      $0.0000  (total $0.00 for 60 invoices)

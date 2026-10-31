@@ -19,10 +19,12 @@ def run(folder: Path):
         if needs_review(inv, problems):
             queue_for_review(inv, problems + [f"Unsure about: {f}" for f in (inv.uncertain_fields if inv else [])], path.name)
             reviewed += 1
+            print(f"{path.name}  review  ({usage['seconds']} s)  {problems[0] if problems else 'model unsure'}")
         else:
             save_invoice(inv, path.name)
             seen.add((inv.supplier_gstin, inv.invoice_number))
             saved += 1
+            print(f"{path.name}  saved   ({usage['seconds']} s)")
     print(f"Saved straight away: {saved}   Sent to review: {reviewed}")
 
 if __name__ == "__main__":

@@ -1,0 +1,4 @@
+sreemanti@MacBook-Pro invoice-pipeline % sqlite3 invoices.db SELECT source_file, invoice_number, igst, total_amount, approved_by FROM invoices WHERE source_file = 'inv_002.jpg'; SELECT id, source_file, action, actor FROM audit_log WHERE source_file = 'inv_002.jpg';
+inv_002.jpg|KAV/26-27/1002|1234.8|8094.8|Sreemanti
+3|inv_002.jpg|sent to review|pipeline
+61|inv_002.jpg|saved|Sreemanti

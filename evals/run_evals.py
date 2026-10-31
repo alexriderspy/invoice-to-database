@@ -7,25 +7,22 @@ def score(predicted: dict, expected: dict) -> tuple[int, int]:
                  if abs(p["taxable_value"] - e["taxable_value"]) < 0.01)
     return right, len(FIELDS) + len(expected["line_items"])
 
-# report: field accuracy, straight-through rate, broken invoices caught (must be all of them), cost per invoice
+# report: field accuracy, straight-through rate, broken invoices caught (must be all of them), time and cost per invoice
 
 
 # ---------------------------------------------------------------------------
 # Running it: extract + validate every file in data/invoices, compare with data/labels.json.
-# Needs ANTHROPIC_API_KEY in .env. Nothing is written to the database.
+# Needs Ollama running with qwen2.5:7b (or LLM_BASE_URL / LLM_MODEL pointing at another model).
+# Nothing is written to the database.
 # Run from the project folder:  python -m evals.run_evals
 # ---------------------------------------------------------------------------
 import json
 from pathlib import Path
 from sqlalchemy import select
+from pipeline import config
 from pipeline.db import engine, suppliers
 from pipeline.extract import extract
 from pipeline.validate import validate, needs_review
-
-# Claude Opus 5.5 prices in US dollars per million tokens.
-# CHECK CURRENT PRICING on https://www.anthropic.com/pricing before quoting these to anyone.
-INPUT_PRICE_PER_MTOK = 5.00
-OUTPUT_PRICE_PER_MTOK = 25.00
 
 
 def main(folder=Path("data/invoices"), labels_file=Path("data/labels.json")):
@@ -34,13 +31,14 @@ def main(folder=Path("data/invoices"), labels_file=Path("data/labels.json")):
         known = {r.gstin for r in conn.execute(select(suppliers))}
     seen = set()
     right = total = straight_through = 0
-    input_tokens = output_tokens = 0
+    input_tokens = output_tokens = seconds = 0
     broken_caught, broken_missed = [], []
 
     for name, expected in sorted(labels.items()):
         inv, usage = extract(folder / name)
         input_tokens += usage["input_tokens"]
         output_tokens += usage["output_tokens"]
+        seconds += usage["seconds"]          # measured on the first call, kept in the cache
         problems = validate(inv, known, seen) if inv else ["The model couldn't extract this file"]
         review = needs_review(inv, problems)
         r, t = score(inv.model_dump() if inv else {}, expected)
@@ -55,13 +53,14 @@ def main(folder=Path("data/invoices"), labels_file=Path("data/labels.json")):
 
     n = len(labels)
     n_broken = len(broken_caught) + len(broken_missed)
-    cost = input_tokens / 1e6 * INPUT_PRICE_PER_MTOK + output_tokens / 1e6 * OUTPUT_PRICE_PER_MTOK
+    cost = (input_tokens * config.PRICE_IN_PER_M + output_tokens * config.PRICE_OUT_PER_M) / 1e6
     print()
     print(f"Field accuracy:        {right}/{total} = {right / total:.1%}")
     print(f"Straight-through rate: {straight_through}/{n} = {straight_through / n:.1%}")
     print(f"Broken caught:         {len(broken_caught)} of {n_broken}"
           + ("" if not broken_missed else f"   MISSED: {', '.join(broken_missed)}"))
     print(f"Tokens:                {input_tokens:,} in, {output_tokens:,} out")
+    print(f"Model time:            {seconds / n:.1f} s per invoice on {config.LLM_MODEL}")
     print(f"Cost per invoice:      ${cost / n:.4f}  (total ${cost:.2f} for {n} invoices)")
 
 

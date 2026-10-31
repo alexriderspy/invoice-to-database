@@ -1,0 +1,54 @@
+sreemanti@MacBook-Pro invoice-pipeline % python demo_extract.py data/invoices/inv_000.pdf
+--- text read from inv_000.pdf ---
+Kaveri Seals and Gaskets   TAX INVOICE
+No. 42, Peenya Industrial Area, Phase 2   Invoice No: KAV/26-27/1000
+Bengaluru 560058, Karnataka   Invoice Date: 03-Oct-2026
+GSTIN: 29AAGCK4321H1Z9   Original for Recipient
+Bill to   Place of supply
+Vardhan Pumps Pvt Ltd   Maharashtra (27)
+S. No. 118, Hadapsar Industrial Estate   Payment terms: 30 days
+Pune 411013, Maharashtra
+GSTIN: 27AAACV9876K1Z3
+Sr   Description   HSN   Qty   Rate   Taxable value   GST %
+1   Impeller VP-100   8413   2   1,450.00   2,900.00   18%
+2   Motor winding wire 1kg   8544   4   980.00   3,920.00   18%
+Taxable value   6,820.00
+IGST @ 18%   1,227.60
+Total (INR)   8,047.60
+Bank: HDFC Bank, Pune. A/c details on request.   For Kaveri Seals and Gaskets
+Goods once sold will not be taken back. Subject to local jurisdiction.
+Authorised Signatory
+
+--- extracted ---
+{
+  "supplier_name": "Kaveri Seals and Gaskets",
+  "supplier_gstin": "29AAGCK4321H1Z9",
+  "buyer_gstin": "27AAACV9876K1Z3",
+  "invoice_number": "KAV/26-27/1000",
+  "invoice_date": "2026-10-03",
+  "line_items": [
+    {
+      "description": "Impeller VP-100",
+      "hsn_code": "8413",
+      "quantity": 2.0,
+      "unit_price": 1450.0,
+      "taxable_value": 2900.0,
+      "gst_rate": 18.0
+    },
+    {
+      "description": "Motor winding wire 1kg",
+      "hsn_code": "8544",
+      "quantity": 4.0,
+      "unit_price": 980.0,
+      "taxable_value": 3920.0,
+      "gst_rate": 18.0
+    }
+  ],
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 1227.6,
+  "total_amount": 8047.6,
+  "uncertain_fields": []
+}
+
+570 tokens in, 302 out, 12.02 s
